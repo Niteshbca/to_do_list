@@ -1,0 +1,34 @@
+
+  /* Base styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+	background-color:yellow;
+  }
+  h1 {
+    text-align: center;
+  }
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 8px 16px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    input[type="text"] {
+      width: 100%;
+    }
+  }
